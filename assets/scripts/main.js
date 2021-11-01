@@ -105,16 +105,16 @@ function bindShowMore() {
       if (button.innerText == 'Show more') {
           button.innerText = 'Show less';
           for (var i = 3; i < recipes.length; i++) {
-              var recipe_card = document.createElement('recipe-card');
-              recipe_card.data = recipeData[recipes[i]];
-              document.querySelector('main').appendChild(recipe_card);
+              var recpCard = document.createElement('recipe-card');
+              recpCard.data = recipeData[recipes[i]];
+              document.querySelector('main').appendChild(recpCard);
           }
       }
       else {
           button.innerText = 'Show more';
-          var recipe_all = document.querySelectorAll('recipe-card');
+          var recipeList = document.querySelectorAll('recipe-card');
           for (var i = 3; i < recipes.length; i++) {
-              recipe_all[i].remove();
+              recipeList[i].remove();
           }
       }
   })

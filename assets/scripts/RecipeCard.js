@@ -165,7 +165,7 @@ class RecipeCard extends HTMLElement {
         rate.appendChild(stars);
         var numRate = document.createElement('span');
         numRate.innerText = '(' + searchForKey(data, 'ratingCount') + ')';
-        rate.appendChild(rate_num);
+        rate.appendChild(numRate);
     }
     card.appendChild(rate);
 

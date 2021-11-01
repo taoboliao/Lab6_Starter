@@ -1,0 +1,76 @@
+
+        [
+            {
+              "@context": "http://schema.org",
+              "@type": "Organization",
+              "name": "Allrecipes",
+              "url": "https://www.allrecipes.com",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.allrecipes.com/img/logo.png",
+                "width": 209,
+                "height": 60
+              },
+              "sameAs": [
+                "https://www.facebook.com/allrecipes",
+                "https://twitter.com/Allrecipes",
+                "https://www.pinterest.com/allrecipes/",
+                "https://www.instagram.com/allrecipes/"
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "SiteNavigationElement",
+              "name": [
+                [
+                  "Breakfast and Brunch Recipes",
+                  "Lunch Recipes",
+                  "Dinner Recipes",
+                  "Appetizer & Snack Recipes",
+                  "Bread Recipes",
+                  "Dessert Recipes",
+                  "Drink Recipes",
+                  "Main Dishes",
+                  "Salad Recipes",
+                  "Side Dish Recipes",
+                  "Soup, Stew & Chili Recipes",
+                  "Cooking Style",
+                  "Diet & Healthy Recipes",
+                  "Holidays & Entertaining",
+                  "World Cuisine",
+                  "Kitchen Tips",
+                  "Allrecipes Magazine Recipes",
+                  "Food Wishes with Chef John",
+                  "Homemade Podcast",
+                  "Trusted Brands",
+                  "Food News and Trends"
+                ]
+              ],
+              "url": [
+                [
+                  "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                  "https://www.allrecipes.com/recipes/17561/lunch/",
+                  "https://www.allrecipes.com/recipes/17562/dinner/",
+                  "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+                  "https://www.allrecipes.com/recipes/156/bread/",
+                  "https://www.allrecipes.com/recipes/79/desserts/",
+                  "https://www.allrecipes.com/recipes/77/drinks/",
+                  "https://www.allrecipes.com/recipes/80/main-dish/",
+                  "https://www.allrecipes.com/recipes/96/salad/",
+                  "https://www.allrecipes.com/recipes/81/side-dish/",
+                  "https://www.allrecipes.com/recipes/94/soups-stews-and-chili/",
+                  "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                  "https://www.allrecipes.com/recipes/84/healthy-recipes/",
+                  "https://www.allrecipes.com/recipes/85/holidays-and-events/",
+                  "https://www.allrecipes.com/recipes/86/world-cuisine/",
+                  "https://www.allrecipes.com/kitchen-tips/",
+                  "https://www.allrecipes.com/recipes/17235/everyday-cooking/allrecipes-magazine-recipes/",
+                  "https://www.allrecipes.com/recipes/16791/everyday-cooking/special-collections/web-show-recipes/food-wishes/",
+                  "https://www.allrecipes.com/homemade-podcast/",
+                  "https://www.allrecipes.com/recipes/82/trusted-brands-recipes-and-tips/",
+                  "https://www.allrecipes.com/food-news-trends/"
+                ]
+              ]
+            }
+          ]
+            

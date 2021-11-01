@@ -43,6 +43,7 @@ async function fetchRecipes() {
 
     .then(data => {
         recipeData[recipe] = data;
+        console.log(data)
     })
 
     .catch(error => {

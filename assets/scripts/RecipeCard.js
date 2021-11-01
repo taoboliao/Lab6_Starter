@@ -7,7 +7,6 @@ class RecipeCard extends HTMLElement {
   }
 
   set data(data) {
-    console.log(data);
     // This is the CSS that you'll use for your recipe cards
     const styleElem = document.createElement('style');
     const styles = `
@@ -235,7 +234,7 @@ function getUrl(data) {
  * @returns {String} If found, it retuns the name of the org as a string, otherwise null
  */
 function getOrganization(data) {
-  if (data.publisher.name) return data.publisher.name;
+  if (data.publisher?.name) return data.publisher?.name;
   if (data['@graph']) {
     for (let i = 0; i < data['@graph'].length; i++) {
       if (data['@graph'][i]['@type'] == 'Organization') {

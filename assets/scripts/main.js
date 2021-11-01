@@ -80,9 +80,9 @@ function createRecipeCards() {
   // Part 1 Expose - TODO
 
   for (var i = 0; i < 3; i++) {
-    var recipeCard = document.createElement('recipeCard');
-    recipeCard.data = recipeData[recipes[i]];
-    document.querySelector('main').appendChild(recipeCard);
+    var recpCard = document.createElement('recipe-Card');
+    recpCard.data = recipeData[recipes[i]];
+    document.querySelector('main').appendChild(recpCard);
   }
 }
 

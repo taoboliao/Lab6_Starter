@@ -114,11 +114,11 @@ class RecipeCard extends HTMLElement {
     title.href = getUrl(data);
     card.appendChild(title);
 
-    var organization = document.createElement('p');
+    /* var organization = document.createElement('p');
     organization.className = 'organization';
     var orgName = getOrganization(data);
     organization.innerText = orgName;
-    card.appendChild(organization);
+    card.appendChild(organization); */
 
     var rate = document.createElement('div');
     rate.className = 'rating';

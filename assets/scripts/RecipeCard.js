@@ -3,7 +3,7 @@ class RecipeCard extends HTMLElement {
     // Part 1 Expose - TODO
     // You'll want to attach the shadow DOM here
     super();
-    this.attachShadow({mode:'open'});
+    let shadow = this.attachShadow({mode:'open'});
   }
 
   set data(data) {
@@ -114,11 +114,11 @@ class RecipeCard extends HTMLElement {
     title.href = getUrl(data);
     card.appendChild(title);
 
-    /* var organization = document.createElement('p');
+    var organization = document.createElement('p');
     organization.className = 'organization';
-    var orgName = getOrganization(data);
+    var orgName = getOrganization(getUrl(data));
     organization.innerText = orgName;
-    card.appendChild(organization); */
+    card.appendChild(organization); 
 
     var rate = document.createElement('div');
     rate.className = 'rating';

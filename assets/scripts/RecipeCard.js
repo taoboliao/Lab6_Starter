@@ -7,6 +7,7 @@ class RecipeCard extends HTMLElement {
   }
 
   set data(data) {
+    console.log(data);
     // This is the CSS that you'll use for your recipe cards
     const styleElem = document.createElement('style');
     const styles = `
@@ -116,7 +117,7 @@ class RecipeCard extends HTMLElement {
 
     var organization = document.createElement('p');
     organization.className = 'organization';
-    var orgName = getOrganization(getUrl(data));
+    var orgName = getOrganization(data);
     organization.innerText = orgName;
     card.appendChild(organization); 
 
